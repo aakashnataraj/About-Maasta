@@ -113,7 +113,7 @@ nav ul li a{
 
 .image img{
     width: 340px;
-    height: 540px;
+    height: 450px;
     border-radius: 24px;
     margin-top: 1rem;
 }
@@ -151,15 +151,16 @@ nav ul li a{
 .simile-2{
     position: relative;
     bottom: 140px;
-    left: 260px;
+    left: 270px;
 }
 
 
 .content{
     display: flex;
     align-items: center;
-    padding-left: 15%;
     flex-wrap: wrap;
+    position: relative;
+    left: 10%;
 }
 
 .content h1{
@@ -174,10 +175,10 @@ nav ul li a{
 }
 
 .content p{
-    width: 290px;   
-    font-size: 14px;
+    width: 370px;   
+    font-size: 12px;
     color: #000;
-    font-weight: 500;
+    font-weight: 700;
     font-family: 'Poppins';
     display: flex;
     flex-wrap: wrap;
@@ -193,7 +194,7 @@ nav ul li a{
     }
 
     header{
-        height: 70vh;
+        height: 90vh;
     }
 
     .container-1{
@@ -262,7 +263,7 @@ nav ul li a{
 
     .image img{
        width: 250px;
-       height: 460px;
+       height: 360px;
        margin-left: -3rem;
     }
 
@@ -273,20 +274,22 @@ nav ul li a{
 
     .content{
         position: relative;
-        bottom: -250px;
-        left: -10%;
-        display: none;
+        top: 520%;
+        left: -50%;
     }
 
     .content h1{
         margin-left: 15%;
+        font-size: 16px;
     }
 
     .content p{
-        width: 300px;
+        width: 370px;
         font-size: 12px;
+        font-weight: 800;
         text-align: center;
         margin-top: 10px;
+        margin-left: 10px;
     }
 
     .content p span{
@@ -422,6 +425,7 @@ section{
         position: relative;
         left: -35%;
     }
+
 }
 
 
@@ -662,7 +666,7 @@ textarea::placeholder{
 
 .container-8{
     width: 100%;
-    height: 50vh;
+    height: 60vh;
     background: #ffff;
 }
 
@@ -748,6 +752,9 @@ input{
         padding-left: 10px;
     }
 }
+
+
+/**** responsive ***/
 
 
 .container-9{
@@ -838,7 +845,7 @@ input{
 
 .container-10{
     width: 100%;
-    height: 5vh;
+    /* height: 5vh; */
     background: #ffff;
 }
 
@@ -854,7 +861,8 @@ input{
 
 @media  screen and (max-width:560px) {
     .container-10{
-        height: 2vh;
+       position: relative;
+       bottom: 570px;
     }
     
     .last h1{
